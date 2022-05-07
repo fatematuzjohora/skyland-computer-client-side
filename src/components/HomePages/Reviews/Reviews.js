@@ -20,8 +20,7 @@ const Reviews = () => {
               Best Pricing
             </h3>
             <p>
-              We provite most premium and best futurable Smart Phone in
-              resanable price, and 24 hours customar support .
+            We Offer the most premium and feature-rich computers at an affordable price as well as 24-hours customer service.Our prior all clint was quit pleased with our work.
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Benner from "../Bennar/Benner";
+import Banner from "../Banner/Banner";
 import Products from "../Products/Products";
 import Reviews from "../Reviews/Reviews";
 import Welcome from "../Welcome/Welcome";
@@ -7,7 +7,7 @@ import Welcome from "../Welcome/Welcome";
 const Home = () => {
   return (
     <div>
-      <Benner></Benner>
+      <Banner></Banner>
       <Welcome></Welcome>
       <Reviews></Reviews>
       <Products></Products>
