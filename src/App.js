@@ -34,7 +34,11 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-        <Route path="/inventory/:inventoryId" element={<ManageComputer />} />
+        <Route path="/inventory/:inventoryId" element={
+        <RequireAuth>
+          <ManageComputer />
+        </RequireAuth>
+        } />
         <Route
           path="/manageInventory"
           element={
