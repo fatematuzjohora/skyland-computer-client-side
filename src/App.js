@@ -17,6 +17,7 @@ import NavBar from './components/HomePages/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import { ToastContainer } from 'react-toastify';
 import Inventory from './components/Administration/Inventory/Inventory';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -47,7 +48,7 @@ function App() {
           <Route path="addItem" element={<AddItems />} />
         </Route>
         <Route path="/manageInventory/:id" element={<UpdateComputer />} />
-        {/* <Route path="/blogs" element={<Blogs></Blogs>}></Route> */}
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<Error404 />} />
