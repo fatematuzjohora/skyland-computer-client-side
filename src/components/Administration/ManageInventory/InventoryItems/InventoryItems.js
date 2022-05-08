@@ -31,7 +31,7 @@ const InventoryItems = () => {
     return (
         <div className="max-w-7xl mx-auto mt-10">
           <Helmet>
-            <title>Manage Inventory - Ns Showroom</title>
+            <title>Manage Inventory - SkyLand Showroom</title>
           </Helmet>
           <div className="flex flex-col">
             <div className="overflow-x-auto shadow-md sm:rounded-lg">

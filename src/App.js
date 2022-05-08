@@ -16,6 +16,7 @@ import Error404 from './components/Error404/Error404';
 import NavBar from './components/HomePages/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import { ToastContainer } from 'react-toastify';
+import Inventory from './components/Administration/Inventory/Inventory';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           path="/inventory"
           element={
             <RequireAuth>
-              <InventoryItems />
+              <Inventory />
             </RequireAuth>
           }
         ></Route>
