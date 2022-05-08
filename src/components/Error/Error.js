@@ -4,7 +4,7 @@ const Error = () => {
   return (
     <div>
       <div className="container">
-        <img className="mt-2 img-fluid" src="../Images/404.gif" alt="" />
+        <img className="mt-2 img-fluid" src="../Images/7iJR.gif" alt="" />
       </div>
     </div>
   );
