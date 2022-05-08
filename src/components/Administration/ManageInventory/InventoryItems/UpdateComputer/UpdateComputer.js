@@ -71,7 +71,7 @@ const UpdateComputer = () => {
         </label>
         <input
           className="rounded-3xl p-2 my-4"
-          name="supplier-name"
+          name="suppliername"
           type="text"
           readOnly
           value={computer?.Suplier}
