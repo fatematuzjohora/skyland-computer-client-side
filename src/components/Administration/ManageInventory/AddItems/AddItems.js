@@ -29,7 +29,7 @@ const AddItems = () => {
     };
     console.log(userEmail);
 
-    fetch("https://skyland-computer.herokuapp.com/computers", {
+    fetch("https://skyland-computer.herokuapp.com/inventory", {
       method: "POST",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

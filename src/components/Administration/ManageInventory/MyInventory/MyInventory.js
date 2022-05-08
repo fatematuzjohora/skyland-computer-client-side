@@ -7,12 +7,12 @@ import auth from '../../../../firebase.init';
 import Computer from '../../Inventory/Computer/Computer';
 
 const MyInventory = () => {
-    const [mobiles, setMobile] = useState([]);
+    const [computers, setComputer] = useState([]);
   const [user] = useAuthState(auth);
   const navigate = useNavigate();
 
   useEffect(() => {
-    const url = `https://ns-mobile-house.herokuapp.com/myinventory?email=${user.email}`;
+    const url = `https://skyland-computer.herokuapp.com/myinventory?email=${user.email}`;
     fetch(url, {
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -21,7 +21,7 @@ const MyInventory = () => {
       .then((res) => res.json())
       .then((data) => {
         if (data) {
-          setMobile(data);
+          setComputer(data);
         }
         if (data.message === "Forbidden access") {
           signOut(auth);
@@ -38,8 +38,8 @@ const MyInventory = () => {
 
   return (
     <div className="grid md:grid-cols-2 items-center justify-center">
-      {mobiles?.length ? (
-        mobiles?.map((mobile) => <Computer key={mobile?._id} mobile={mobile} />)
+      {computers?.length ? (
+        computers?.map((computer) => <Computer key={computer?._id} computer={computer} />)
       ) : (
         <p className="text-red-600 text-4xl text-center my-10 w-full">
           You have to add an Inventory!

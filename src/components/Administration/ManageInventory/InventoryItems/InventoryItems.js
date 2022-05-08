@@ -5,14 +5,14 @@ import Loading from '../../../Loading/Loading';
 import { toast } from 'react-toastify';
 
 const InventoryItems = () => {
-    const [mobiles, setMobile] = useState([]);
+    const [computers, setComputer] = useState([]);
   const navigate = useNavigate();
   const [refresh, setRefresh] = useState("");
 
   useEffect(() => {
     fetch("https://skyland-computer.herokuapp.com/computers")
       .then((res) => res.json())
-      .then((data) => setMobile(data.mobiles));
+      .then((data) => setComputer(data.computers));
   }, [refresh]);
 
   const handleDeleteComputer = (id) => {
@@ -85,34 +85,34 @@ const InventoryItems = () => {
                       </tr>
                     </thead>
                     <tbody className="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
-                      {mobiles.length ? (
-                        mobiles.map((mobile) => {
+                      {computers.length ? (
+                        computers.map((computer) => {
                           return (
                             <tr
-                              key={mobile._id}
+                              key={computer._id}
                               className="hover:bg-gray-100 dark:hover:bg-gray-700"
                             >
                               <td className="p-4 w-4">
                                 <div className="flex items-center">
-                                  <img src={mobile.image} alt="" />
+                                  <img src={computer.image} alt="" />
                                 </div>
                               </td>
                               <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                {mobile.name}
+                                {computer.name}
                               </td>
                               <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">
-                                {mobile.quantity}
+                                {computer.quantity}
                               </td>
                               <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">
-                                {mobile.suplier}
+                                {computer.Suplier}
                               </td>
                               <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                ${mobile.price}
+                                ${computer.price}
                               </td>
                               <td className="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
                                 <button
                                   onClick={() =>
-                                    navigate(`/manageInventory/${mobile._id}`)
+                                    navigate(`/manageInventory/${computer._id}`)
                                   }
                                   className="text-blue-600 dark:text-blue-500 hover:underline"
                                 >
@@ -134,7 +134,7 @@ const InventoryItems = () => {
                               </td>
                               <td className="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
                                 <button
-                                  onClick={() => handleDeleteComputer(mobile._id)}
+                                  onClick={() => handleDeleteComputer(computer._id)}
                                   className="text-red-600 dark:text-red-500 hover:underline"
                                 >
                                   <svg
