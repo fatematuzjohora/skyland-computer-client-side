@@ -11,7 +11,7 @@ const Inventory = () => {
 
   useEffect(() => {
     fetch(
-      `https://ns-computer-house.herokuapp.com/computers?limit=${limit}&pageNumber=${page}`
+      `https://skyland-computer.herokuapp.com/computers?limit=${limit}&pageNumber=${page}`
     )
       .then((res) => res.json())
       .then((data) => {

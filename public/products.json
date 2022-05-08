@@ -1,51 +1,73 @@
 [
-    {
-      "id": 1,
-      "name": "samuel-thompson",
-      "img": "https://i.ibb.co/6bqC1f5/samuel-thompson-pjk1-OPA0-YM4-unsplash.jpg",
-      "review": "Quick Set-up SoftBox And Single Off-camera Flashes. This Soft Box Is Extremely Versatile When Shooting. It Can Be Placed Close To Your Subjects For Formal Portraits, Creating A Soft Wraparound Light.",
-      "suplier": "Abul kalam",
-      "price": "$ 15"
-    },
-    {
-      "id": 2,
-      "name": "redd-rjf-Odi",
-      "img": "https://i.ibb.co/0mtdXxX/redd-rjf-Odi-B7k-E-unsplash.jpg",
-      "review": "portrait light setup including full drama DSLR Camera. All edited photos delivery on dvd.All printed photos delivery with matte/glossy paper",
-      "suplier": "Abdus salam",
-      "price": "$ 44"
-    },
-    {
-      "id": 3,
-      "name": "lina-castaneda-Hcmdst",
-      "img": "https://i.ibb.co/3cGVRDv/lina-castaneda-Hcmdst-M9-IFw-unsplash.jpg",
-      "review": "3 Dress PhotoShoot. 15 picture with special edit .All printed photos delivery with matte/glossy paper",
-      "suplier": "Abdul Mojid",
-      "price": "$ 20"
-    },
-    {
-      "id": 4,
-      "name": "cole-keister",
-      "img": "https://i.ibb.co/VpwWqQd/cole-keister-e-WIYSPi6-R8g-unsplash.jpg",
-      "review": "Studio session. unlimited photos. best 20 special edited photos. 1.5 hours session.",
-      "suplier": "Abdul Halim",
-      "price": "$ 10"
-    },
-    {
-      "id": 5,
-      "name": "sarandy-westfall",
-      "img": "https://i.ibb.co/q072CY5/sarandy-westfall-ye63-SJWNU-unsplash.jpg",
-      "review": "Unlimited PhotoShoot.Take pictures of your choice.best 100 special edited photos.",
-      "suplier":"Enayet Ali",
-      "price": "$ 14"
-    },
-    {
-      "id": 6,
-      "name": "gabe-hobbs",
-      "img": "https://i.ibb.co/0V2YVG9/gabe-hobbs-Py3w-Hdj-Ma-AI-unsplash.jpg",
-      "review": "there is nothing to say just awsome. hour shoot. Take pictures of your choice. best 20 special edited photos of your choice.",
-      "suplier":"Rifat Chowdhury",
-      "price": "$ 11"
-    }
-    
-  ]
+  {
+    "Suplier": "Apple ",
+    "name": "Nathan-Dumlaoi SW10",
+    "price": "170",
+    "image": "https://i.ibb.co/GHdS3F1/nathan-dumlao-s-W-10bra-Kv-E-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Apple ",
+    "name": "Nathan-Dumlao EG",
+    "price": "150",
+    "image": "https://i.ibb.co/gMWy9zZ/nathan-dumlao-OTHx6-EGk-AVA-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Apple ",
+    "name": "Min-Foto 2",
+    "price": "130",
+    "quantity": "100",
+    "image": "https://i.ibb.co/fFPPWPV/min-foto-2-Yp-Pzj8gn1-E-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Oppo ",
+    "name": "Brooke-cagle",
+    "price": "55",
+    "quantity": "100",
+    "image": "https://i.ibb.co/6PH1cRg/brooke-cagle-Ftx92-UKO3-Xg-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Apple",
+    "name": "Ash-Edmonds",
+    "price": "98",
+    "quantity": "100",
+    "image": "https://i.ibb.co/GQbY3Fr/ash-edmonds-Koxa-GX-5zs-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Samsung",
+    "name": "Wesson-wang",
+    "price": "65",
+    "quantity": "100",
+    "image": "https://i.ibb.co/72qjy4t/wesson-wang-y0-v-Fx-OHayg-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Samsung ",
+    "name": "Dmitry-chernyshov",
+    "price": "85",
+    "quantity": "100",
+    "image": "https://i.ibb.co/RbGbdWL/dmitry-chernyshov-m-P7a-PSUm7a-E-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Samsung ",
+    "name": "Galaxy",
+    "price": "100",
+    "quantity": "100",
+    "image": "https://i.ibb.co/4tSchs5/kari-shea-1-SAnr-Ixw5-OY-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  },
+  {
+    "Suplier": "Samsung ",
+    "name": "Galaxy Ultra",
+    "price": "120",
+    "quantity": "100",
+    "image": "https://i.ibb.co/6PH1cRg/brooke-cagle-Ftx92-UKO3-Xg-unsplash.jpg",
+    "description": "The implementation of advanced technologies such as IoT, AI, AR, and cloud computing into mobile devices is possible due to the enhancement of wireless connectivity. Currently,"
+  }
+  
+]

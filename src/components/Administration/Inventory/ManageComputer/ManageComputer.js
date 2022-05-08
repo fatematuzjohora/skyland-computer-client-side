@@ -10,7 +10,7 @@ const ManageComputer = () => {
   const [refresh, setRefresh] = useState(0);
 
   useEffect(() => {
-    fetch(`https://ns-computer-house.herokuapp.com/computers/${inventoryId}`)
+    fetch(`https://skyland-computer.herokuapp.com/computers/${inventoryId}`)
       .then((res) => res.json())
       .then((data) => setComputer(data));
   }, [inventoryId, refresh]);
@@ -36,7 +36,7 @@ const ManageComputer = () => {
       image,
     };
 
-    fetch(`https://ns-computer-house.herokuapp.com/computers/${computer._id}`, {
+    fetch(`https://skyland-computer.herokuapp.com/computers/${computer._id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json",
@@ -71,7 +71,7 @@ const ManageComputer = () => {
         image,
       };
 
-      fetch(`https://ns-computer-house.herokuapp.com/computers/${id}`, {
+      fetch(`https://skyland-computer.herokuapp.com/computers/${id}`, {
         method: "PUT",
         headers: {
           "Content-type": "application/json",
