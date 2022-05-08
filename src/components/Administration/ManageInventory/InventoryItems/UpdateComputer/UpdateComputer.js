@@ -8,7 +8,7 @@ const UpdateComputer = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`https://ns-mobile-house.herokuapp.com/mobiles/${id}`)
+    fetch(`https://skyland-computer.herokuapp.com/computers/${id}`)
       .then((res) => res.json())
       .then((data) => setComputer(data));
   }, [id]);
@@ -32,7 +32,7 @@ const UpdateComputer = () => {
       image,
     };
 
-    fetch(`https://ns-mobile-house.herokuapp.com/mobiles/${id}`, {
+    fetch(`https://skyland-computer.herokuapp.com/computers/${id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json",

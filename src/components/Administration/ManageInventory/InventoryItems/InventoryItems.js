@@ -10,7 +10,7 @@ const InventoryItems = () => {
   const [refresh, setRefresh] = useState("");
 
   useEffect(() => {
-    fetch("https://ns-mobile-house.herokuapp.com/mobiles")
+    fetch("https://skyland-computer.herokuapp.com/computers")
       .then((res) => res.json())
       .then((data) => setMobile(data.mobiles));
   }, [refresh]);
@@ -19,7 +19,7 @@ const InventoryItems = () => {
     const procced = window.confirm("Are you Sure?");
 
     if (procced) {
-      fetch(`https://ns-mobile-house.herokuapp.com/mobiles/${id}`, {
+      fetch(`https://skyland-computer.herokuapp.com/computers/${id}`, {
         method: "DELETE",
       })
         .then((response) => response.json())
